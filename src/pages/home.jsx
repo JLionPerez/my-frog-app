@@ -1,13 +1,11 @@
 import React from "react"
 // import './App.css'
-import { link } from 'react-router-dom'
+// import { link } from 'react-router-dom'
 
-function Home(){
+export default function Home() {
     return (
         <div>
             <p>This is the Home page.</p>
         </div>
     )
 }
-
-export default Home
